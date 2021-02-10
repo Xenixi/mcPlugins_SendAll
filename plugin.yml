@@ -1,0 +1,30 @@
+name: SendAll
+version: 1.0
+main: me.thisorthat.sa.main.SendAll
+author: Kobe McManus
+commands: 
+    sendall:
+        description: Execute command as all consoles
+        aliases: [sa, sall]
+        permission: SendAll.execute
+    salist:
+        description: List servers in SendAll network
+        aliases: [sal]
+        permission: SendAll.list
+    sarl:
+        description: Reload the plugin and reconnect to server
+        aliases: [srl]
+        permission: SendAll.rl
+    sendserver:
+        description: Execute command as specific server console
+        aliases: [ss, sserver]
+        permission: SendAll.execute
+        
+
+permissions: 
+    SendAll.execute:
+        description: permission to execute server console commands as all connected consoles
+    SendAll.list:
+        description: permission to list all connected servers in SendAll network.
+    SendAll.rl:
+        description: permission to run srl or sarl (reload cmds)

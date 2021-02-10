@@ -1,0 +1,5 @@
+#Set name, and your SendAll server's (on Bungeecord) port.
+#Port must match for connection to be made
+name: aMinecraftServer
+port: 25595
+pass: hfg4iwi
